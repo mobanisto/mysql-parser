@@ -3,6 +3,7 @@ wrapper {
 }
 
 apply plugin: 'java'
+apply plugin: 'antlr'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
@@ -28,6 +29,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
+    antlr 'org.antlr:antlr4:4.6'
 }
 
 java {
@@ -41,3 +43,6 @@ publishing {
         }
     }
 }
+
+tasks.eclipse.dependsOn generateGrammarSource
+tasks.eclipseClasspath.dependsOn generateGrammarSource
