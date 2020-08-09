@@ -16,8 +16,8 @@ See [MIT.md](MIT.md) for details.
 We provide access to the artifacts via our
 [own Maven repository](https://mvn.topobyte.de) at these coordinates:
 
-    de.mobanisto:mysql-parser:1.0.0
+    de.mobanisto.antlr:mysql-parser:1.0.0
 
 You can also browse the repository online:
 
-<https://mvn.topobyte.de/de/mobanisto/mysql-parser/>
+<https://mvn.topobyte.de/de/mobanisto/antlr/mysql-parser/>
