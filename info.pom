@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <name>MySQL Parser</name>
+  <description>Parsing library for MySQL dumps using ANTLR.</description>
+  <url>https://github.com/mobanisto/mysql-parser</url>
+  <licenseName>MIT License</licenseName>
+  <licenseUrl>https://www.opensource.org/licenses/MIT</licenseUrl>
+  <licenseDistribution>repo</licenseDistribution>
+</project>
